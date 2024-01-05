@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vijaymakwana/widgets/web_menu_header.dart';
 
 class WebScreen extends StatelessWidget {
   const WebScreen({super.key});
@@ -6,8 +7,13 @@ class WebScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-        body: Center(
-      child: Text("Web Screen"),
+        body: Column(
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        WebMenuHeader(),
+        Expanded(child: Center(child: Text("Web Screen"))),
+      ],
     ));
   }
 }
