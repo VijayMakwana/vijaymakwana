@@ -29,7 +29,8 @@ class WebMenuHeader extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontFamily: GoogleFonts.teko().fontFamily),
               onClick: () {
-                Scrollable.ensureVisible(GlobalKeys.KEY_PROFILE.currentContext!,
+                Scrollable.ensureVisible(
+                    GlobalKeys.KEY_WEB_HOME.currentContext!,
                     duration: const Duration(milliseconds: 1000),
                     curve: Curves.easeOut);
               },
@@ -43,7 +44,7 @@ class WebMenuHeader extends StatelessWidget {
                 ),
                 onClick: () {
                   Scrollable.ensureVisible(
-                      GlobalKeys.KEY_PROJECTS.currentContext!,
+                      GlobalKeys.KEY_WEB_PROJECTS.currentContext!,
                       duration: const Duration(milliseconds: 1000),
                       curve: Curves.easeOut);
                 }),
@@ -56,7 +57,7 @@ class WebMenuHeader extends StatelessWidget {
                 ),
                 onClick: () {
                   Scrollable.ensureVisible(
-                      GlobalKeys.KEY_EXPERIENCE.currentContext!,
+                      GlobalKeys.KEY_WEB_EXPERIENCE.currentContext!,
                       duration: const Duration(milliseconds: 1000),
                       curve: Curves.easeOut);
                 }),
@@ -69,7 +70,7 @@ class WebMenuHeader extends StatelessWidget {
                 ),
                 onClick: () {
                   Scrollable.ensureVisible(
-                      GlobalKeys.KEY_SKILLS.currentContext!,
+                      GlobalKeys.KEY_WEB_SKILLS.currentContext!,
                       duration: const Duration(milliseconds: 1000),
                       curve: Curves.easeOut);
                 }),
@@ -82,7 +83,7 @@ class WebMenuHeader extends StatelessWidget {
                 ),
                 onClick: () {
                   Scrollable.ensureVisible(
-                      GlobalKeys.KEY_ABOUTME.currentContext!,
+                      GlobalKeys.KEY_WEB_ABOUTME.currentContext!,
                       duration: const Duration(milliseconds: 1000),
                       curve: Curves.easeOut);
                 }),

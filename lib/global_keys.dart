@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class GlobalKeys {
-  static final KEY_HEADER = GlobalKey();
-  static final KEY_PROFILE = GlobalKey();
-  static final KEY_PROJECTS = GlobalKey();
-  static final KEY_EXPERIENCE = GlobalKey();
-  static final KEY_SKILLS = GlobalKey();
-  static final KEY_ABOUTME = GlobalKey();
+  static final KEY_WEB_HEADER = GlobalKey();
+  static final KEY_WEB_HOME = GlobalKey();
+  static final KEY_WEB_PROJECTS = GlobalKey();
+  static final KEY_WEB_EXPERIENCE = GlobalKey();
+  static final KEY_WEB_SKILLS = GlobalKey();
+  static final KEY_WEB_ABOUTME = GlobalKey();
 }

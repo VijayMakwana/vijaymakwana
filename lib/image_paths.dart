@@ -6,23 +6,23 @@ class ImagesPath {
   static const String iconStackOverflow = "assets/icon_stack_overflow.png";
 
   static final List<String> tiraImgList = [
-    'tira1.jpg',
-    'tira2.jpg',
-    'tira3.jpg',
-    'tira4.jpg',
-    'tira5.jpg',
-    'tira6.jpg',
-    'tira7.jpg',
+    'assets/tira1.jpg',
+    'assets/tira2.jpg',
+    'assets/tira3.jpg',
+    'assets/tira4.jpg',
+    'assets/tira5.jpg',
+    'assets/tira6.jpg',
+    'assets/tira7.jpg',
   ];
 
   static final List<String> fyndImgList = [
-    'fynd1.jpg',
-    'fynd2.jpg',
-    'fynd3.jpg',
-    'fynd4.jpg',
-    'fynd5.jpg',
-    'fynd6.jpg',
-    'fynd7.jpg',
-    'fynd8.jpg',
+    'assets/fynd1.jpg',
+    'assets/fynd2.jpg',
+    'assets/fynd3.jpg',
+    'assets/fynd4.jpg',
+    'assets/fynd5.jpg',
+    'assets/fynd6.jpg',
+    'assets/fynd7.jpg',
+    'assets/fynd8.jpg',
   ];
 }

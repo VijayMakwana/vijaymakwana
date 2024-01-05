@@ -16,7 +16,6 @@ class WebHome extends StatelessWidget {
       children: [
         SizedBox(
           width: MediaQuery.of(context).size.width * 0.28,
-          height: double.infinity,
           child: const Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -35,21 +34,18 @@ class WebHome extends StatelessWidget {
                   ),
                   WebAction(
                     webUrl: "https://github.com/vijaymakwana",
-                    assetImage: AssetImage(ImagesPath.iconGithub),
-                  ),
-                  WebAction(
-                    webUrl:
-                        "https://stackoverflow.com/users/5746245/vijay-makwana",
-                    assetImage: AssetImage(ImagesPath.iconStackOverflow),
-                  ),
-                ],
-              ),
-            ],
-          ),
-        ),
-        SizedBox(
-          width: MediaQuery.of(context).size.width * 0.05,
-        ),
+                      assetImage: AssetImage(ImagesPath.iconGithub),
+                    ),
+                    WebAction(
+                      webUrl:
+                          "https://stackoverflow.com/users/5746245/vijay-makwana",
+                      assetImage: AssetImage(ImagesPath.iconStackOverflow),
+                    ),
+                  ],
+                ),
+              ],
+            )),
+        SizedBox(width: MediaQuery.of(context).size.width * 0.05),
         SizedBox(
           width: MediaQuery.of(context).size.width * 0.28,
           child: Column(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:vijaymakwana/screens/mobile_home.dart';
+import 'package:vijaymakwana/screens/mobile_projects.dart';
 import 'package:vijaymakwana/widgets/theme_change_button.dart';
 
 class MobileScreen extends StatelessWidget {
@@ -35,7 +36,10 @@ class MobileScreen extends StatelessWidget {
             ],
           ),
         ),
-        body: const MobileHome(),
+        body: const TabBarView(children: [
+          MobileHome(),
+          MobileProjects(),
+        ]),
       ),
     );
   }
