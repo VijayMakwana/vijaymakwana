@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:vijaymakwana/screens/mobile_home.dart';
 import 'package:vijaymakwana/widgets/theme_change_button.dart';
 
 class MobileScreen extends StatelessWidget {
@@ -25,30 +26,16 @@ class MobileScreen extends StatelessWidget {
             isScrollable: true,
             tabAlignment: TabAlignment.start,
             tabs: [
-              Tab(
-                text: "Home",
-              ),
-              Tab(
-                text: "Projects",
-              ),
-              Tab(
-                text: "Experience",
-              ),
-              Tab(
-                text: "Skills",
-              ),
-              Tab(
-                text: "About me",
-              ),
-              Tab(
-                text: "Contact me",
-              ),
+              Tab(text: "Home"),
+              Tab(text: "Projects"),
+              Tab(text: "Experience"),
+              Tab(text: "Skills"),
+              Tab(text: "About me"),
+              Tab(text: "Contact me"),
             ],
           ),
         ),
-        body: const Center(
-          child: Text("Mobile Screen"),
-        ),
+        body: const MobileHome(),
       ),
     );
   }

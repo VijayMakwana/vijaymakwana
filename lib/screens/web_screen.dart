@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vijaymakwana/screens/web_home.dart';
 import 'package:vijaymakwana/widgets/web_menu_header.dart';
 
 class WebScreen extends StatelessWidget {
@@ -12,7 +13,7 @@ class WebScreen extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         WebMenuHeader(),
-        Expanded(child: Center(child: Text("Web Screen"))),
+        Expanded(child: WebHome()),
       ],
     ));
   }
