@@ -38,7 +38,7 @@ class MobileProjects extends StatelessWidget {
                       const Gap(20),
                       GestureDetector(
                         onTap: () {
-                          launchInBrowser(Uri.parse(item.url));
+                          launchWithUri(Uri.parse(item.url));
                         },
                         child: Text(item.name,
                             style: const TextStyle(

@@ -40,7 +40,6 @@ class WebMenuHeader extends StatelessWidget {
                 text: "Projects",
                 textStyle: const TextStyle(
                   fontSize: 16.0,
-                  fontWeight: FontWeight.bold,
                 ),
                 onClick: () {
                   Scrollable.ensureVisible(
@@ -53,7 +52,6 @@ class WebMenuHeader extends StatelessWidget {
                 text: "Experience",
                 textStyle: const TextStyle(
                   fontSize: 16.0,
-                  fontWeight: FontWeight.bold,
                 ),
                 onClick: () {
                   Scrollable.ensureVisible(
@@ -66,7 +64,6 @@ class WebMenuHeader extends StatelessWidget {
                 text: "Skills",
                 textStyle: const TextStyle(
                   fontSize: 16.0,
-                  fontWeight: FontWeight.bold,
                 ),
                 onClick: () {
                   Scrollable.ensureVisible(
@@ -76,10 +73,9 @@ class WebMenuHeader extends StatelessWidget {
                 }),
             const Gap(30),
             HoverUnderlineText(
-                text: "About me",
+                text: "About",
                 textStyle: const TextStyle(
                   fontSize: 16.0,
-                  fontWeight: FontWeight.bold,
                 ),
                 onClick: () {
                   Scrollable.ensureVisible(
@@ -89,13 +85,15 @@ class WebMenuHeader extends StatelessWidget {
                 }),
             const Gap(30),
             HoverUnderlineText(
-                text: "Contact me",
+                text: "Contact",
                 textStyle: const TextStyle(
                   fontSize: 16.0,
-                  fontWeight: FontWeight.bold,
                 ),
                 onClick: () {
-                  print("Contact me Clicked");
+                  Scrollable.ensureVisible(
+                      GlobalKeys.KEY_WEB_CONTACTME.currentContext!,
+                      duration: const Duration(milliseconds: 1000),
+                      curve: Curves.easeOut);
                 }),
             const Gap(30),
             const ThemeChangeButton(iconSize: 24),

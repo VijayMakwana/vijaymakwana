@@ -4,6 +4,7 @@ class ImagesPath {
   static const String iconLinkedin = "assets/icon_linkedin.png";
   static const String iconGithub = "assets/icon_github.png";
   static const String iconStackOverflow = "assets/icon_stack_overflow.png";
+  static const String iconflutter = "assets/flutter_logo.png";
 
   static final List<String> tiraImgList = [
     'assets/tira1.jpg',

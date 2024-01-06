@@ -15,18 +15,18 @@ class WebHome extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SizedBox(
-          width: MediaQuery.of(context).size.width * 0.28,
-          child: const Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Gap(120),
-              ProfileInfo(
-                name: "Vijay",
-                position: "Android Developer",
-                basedIn: "Ahmedabad, India",
-                about:
-                    "Having more then 6 years of experience creating high-performance mobile apps. Expertise in Android, Kotlin, Jetpack Compose, Clean Architecture, Flutter and more. Let's connect to explore collaboration opportunities!",
+          width: MediaQuery.of(context).size.width * 0.30,
+            child: const Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Gap(120),
+                ProfileInfo(
+                  name: "Vijay",
+                  position: "Android Developer",
+                  basedIn: "Ahmedabad, India",
+                  about:
+                      "Having more then 6 years of experience creating high-performance mobile apps. Expertise in Android, Kotlin, Jetpack Compose, Clean Architecture, Flutter and more. Let's connect to explore collaboration opportunities!",
                 webActions: [
                   WebAction(
                     webUrl: "https://www.linkedin.com/in/vijay-makwana1511",
@@ -47,7 +47,7 @@ class WebHome extends StatelessWidget {
             )),
         SizedBox(width: MediaQuery.of(context).size.width * 0.05),
         SizedBox(
-          width: MediaQuery.of(context).size.width * 0.28,
+          width: MediaQuery.of(context).size.width * 0.30,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.end,

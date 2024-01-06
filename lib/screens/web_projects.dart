@@ -51,7 +51,7 @@ class WebProjects extends StatelessWidget {
                         children: [
                           GestureDetector(
                             onTap: () {
-                              launchInBrowser(Uri.parse(item.url));
+                              launchWithUri(Uri.parse(item.url));
                             },
                             child: kIsWeb
                                 ? HoverUnderlineText(
