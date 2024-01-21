@@ -31,7 +31,7 @@ class Contact extends StatelessWidget {
             ),
           ),
         ),
-        const Gap(10),
+       /* const Gap(10),
         InkWell(
           onTap: () {
             final Uri callLaunchUri =
@@ -51,7 +51,7 @@ class Contact extends StatelessWidget {
               ],
             ),
           ),
-        ),
+        ),*/
       ],
     );
   }

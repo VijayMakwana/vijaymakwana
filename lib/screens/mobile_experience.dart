@@ -32,9 +32,10 @@ class MobileExperience extends StatelessWidget {
                     Expanded(
                       child: ExperienceListItem(
                           companyName: item.companyName,
+                          companyWebUrl: item.companyWebUrl,
                           position: item.position,
-                          year: item.year,
-                          keyPoints: item.keyPoints),
+                          companyTimeSpan: item.companyTimeSpan,
+                          projectKeyPoints: item.projectKeyPoints),
                     ),
                   ],
                 ),

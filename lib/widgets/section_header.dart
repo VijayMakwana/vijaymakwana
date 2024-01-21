@@ -14,10 +14,10 @@ class SectionHeader extends StatelessWidget {
               fontWeight: FontWeight.bold,
               fontSize: 40,
             )),
-        const Text(".",
+         Text(".",
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: Colors.green,
+              color: Theme.of(context).buttonTheme.colorScheme!.primary,
               fontSize: 40,
             ))
       ],

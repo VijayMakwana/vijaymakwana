@@ -8,7 +8,8 @@ class Skills extends StatelessWidget {
   Widget build(BuildContext context) {
     return Wrap(
       direction: Axis.horizontal,
-      spacing: 30,
+      runSpacing: 20,
+      spacing: 20,
       children: [
         for (final skill in skills)
           Text("● $skill", style: const TextStyle(fontSize: 18))
