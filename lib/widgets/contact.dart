@@ -30,28 +30,7 @@ class Contact extends StatelessWidget {
               ],
             ),
           ),
-        ),
-       /* const Gap(10),
-        InkWell(
-          onTap: () {
-            final Uri callLaunchUri =
-                Uri(scheme: 'tel', path: '+91 7600847698');
-            launchWithUri(callLaunchUri);
-          },
-          child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 16.0),
-            child: Row(
-              children: [
-                Icon(
-                  Icons.call,
-                  color: Theme.of(context).buttonTheme.colorScheme!.primary,
-                ),
-                const Gap(16),
-                const Text("+91 7600847698", style: TextStyle(fontSize: 16)),
-              ],
-            ),
-          ),
-        ),*/
+        )
       ],
     );
   }
