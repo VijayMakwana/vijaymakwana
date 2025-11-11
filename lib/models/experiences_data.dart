@@ -6,7 +6,7 @@ final List<ExperienceItem> experienceItems = [
       companyName: "Fynd",
       companyWebUrl: "https://www.fynd.com/",
       position: "SDE-2",
-      companyTimeSpan: "April 2021 - Present",
+      companyTimeSpan: "April 2021 - May 2025",
       projectKeyPoints: [
         ProjectKeyPoint(
             projectName: "Tira",
@@ -91,14 +91,10 @@ final List<ExperienceItem> experienceItems = [
               "Used shared ViewModel for making its data cached throughout the session and reduce API calls.",
               "Design app using constraint layouts with data binding and used coroutine with a retrofit for API integration.",
             ]),
-        ProjectKeyPoint(
-            projectName: "ProTeen",
-            projectUrl:
-                "https://play.google.com/store/apps/details?id=com.proteen.mycareer&hl=en-IN",
-            keyPoints: [
-              "Implemented advanced recycler view library for design puzzle levels.",
-              "Used timers for quiz time and used exoplayer for audio and video players.",
-            ]),
+        ProjectKeyPoint(projectName: "ProTeen", keyPoints: [
+          "Implemented advanced recycler view library for design puzzle levels.",
+          "Used timers for quiz time and used exoplayer for audio and video players.",
+        ]),
         ProjectKeyPoint(projectName: "Peoplenect", keyPoints: [
           "Implemented Google Map API with clustering for handle jobs in same locations.",
           "Implemented internationalization and multilingual.",

@@ -27,13 +27,13 @@ class ImagesPath {
     'assets/fynd8.jpg',
   ];
 
-  static final List<String> ajioImgList = [
-    'assets/ajio1.jpg',
-    'assets/ajio2.jpg',
-    'assets/ajio3.jpg',
-    'assets/ajio4.jpg',
-    'assets/ajio5.jpg',
-    'assets/ajio6.jpg',
+  static final List<String> pixelbinImgList = [
+    'assets/pixelbin1.jpg',
+    'assets/pixelbin2.jpg',
+    'assets/pixelbin3.jpg',
+    'assets/pixelbin4.jpg',
+    'assets/pixelbin5.jpg',
+    'assets/pixelbin6.jpg',
   ];
 
   static final List<String> dsImgList = [

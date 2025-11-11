@@ -9,9 +9,10 @@ final List<ProjectItem> projectItems = [
         "Beauty means different things to different people, and that it can change from day to day and mood to mood. At Tira, we curate the best global and homegrown beauty brands and inspire you to explore and express your every idea of beauty. We are here to be your companion in this journey – For every day, every mood, every you. Whether you are beauty-obsessed or beauty-intrigued, here’s a space for you to experience shopping in a new way. Try, buy and love: pick from makeup, skincare, hair care, body care, fragrances and more.",
     techStacks: [
       "Android",
-      "Architecture components"
-          "Kotlin",
+      "Architecture components",
+      "Kotlin",
       "Coroutines",
+      "Flow",
       "Clean Architecture",
       "MVVM",
       "Dagger-2, Hilt",
@@ -43,24 +44,21 @@ final List<ProjectItem> projectItems = [
     images: ImagesPath.fyndImgList,
   ),
   ProjectItem(
-    name: "AJIO Online Shopping App",
-    url: "https://play.google.com/store/apps/details?id=com.ril.ajio&hl=en-IN",
+    name: "Pixelbin: AI Photo Editor",
+    url: "https://play.google.com/store/apps/details?id=io.pixelbin.app",
     desc:
-        "We know what fashion means to you, and how much you love the convenience of online shopping. AJIO’s online shopping app makes sure you don’t miss out on a stylish shopping experience even if you’re on the move. AJIO is always there to look after all your style needs, whether you want to shop for clothing for men and women, footwear, accessories or even the latest electronics and tech gadgets.",
+        "AI Photo Editor: PixelBin uses sophisticated AI algorithms to automate complex editing tasks, allowing you to focus on the creative aspects of your photography. Adjust, crop, sharpen, and tint your photos with precision and ease. Our AI tools ensure that every adjustment contributes positively to the final image, reducing your workload and enhancing your creative output.",
     techStacks: [
-      "Android",
-      "Kotlin",
-      "Architecture components"
-          "Coroutines",
-      "Flow API",
-      "MVVM",
-      "Dagger-2"
-          "lottie",
+      "Flutter",
+      "Dart",
+      "BLoC",
+      "Isolates",
+      "Canvas",
+      "Native Method Channel",
       "Clean Architecture",
     ],
-    role:
-        "My role was to redesign and refactor Whole Order Module and review other teammate code and help them to fix and improve code.",
-    images: ImagesPath.ajioImgList,
+    role: "Built and launched PixelBin, an AI-powered photo editor app developed with Flutter, BLoC, and native Method Channels. Implemented Isolate-based image processing and optimized canvas rendering to enable smooth, real-time multi-layer editing ensuring high responsiveness and performance consistency.",
+    images: ImagesPath.pixelbinImgList,
   ),
   ProjectItem(
     name: "CRM by DealerSocket",
@@ -113,8 +111,8 @@ final List<ProjectItem> projectItems = [
         "Helpr aims to facilitate and improve the lives of working parents. We provide backup care that meets the needs of all working parents. We help employers and employees success by saving money. Helpr is proud to be Employee Benefit News' top innovator of the year. Connect your employees to quality care providers. When primary care falls through, families can request qualified providers in just three hours notice.",
     techStacks: [
       "Android",
-      "Android jetpack components"
-          "Kotlin",
+      "Android jetpack components",
+      "Kotlin",
       "MVVM",
       "Coroutine",
       "Local Caching"

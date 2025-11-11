@@ -17,10 +17,10 @@ class MobileHome extends StatelessWidget {
           children: [
             const ProfileInfo(
               name: "Vijay",
-              position: "Android Developer",
-              basedIn: "Ahmedabad, India",
+              position: "Senior Android Engineer",
+              basedIn: "India",
               about:
-                  "Having more then 6 years of experience creating high-performance mobile apps. Expertise in Android, Kotlin, Jetpack Compose, Clean Architecture, Flutter and more. Let's connect to explore collaboration opportunities!",
+                  "Having over 8+ years of experience crafting high-quality mobile applications. Skilled in Kotlin, Jetpack Compose, Clean Architecture, and Flutter — passionate about building seamless, scalable, and modern app experiences. Let’s connect to explore collaboration opportunities!",
               webActions: [
                 WebAction(
                   webUrl: "https://www.linkedin.com/in/vijay-makwana1511",

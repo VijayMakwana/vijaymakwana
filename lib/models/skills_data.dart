@@ -1,17 +1,24 @@
-final List<String> skills = [
-  "Android",
-  "Kotlin",
-  "MVVM",
-  "Architecture components (LiveData, ViewModel, Lifecycle, WorkManager etc.)",
-  "Jetpack Compose",
-  "Clean Architecture",
-  "Kotlin Coroutine",
-  "Flow API",
-  "Dagger-2",
-  "Hilt",
-  "JUnit, Espresso, mockito for unit and Instrumentation Testing",
-  "Payment SDKs like RazorPay, JusPay and more",
-  "Flutter",
-  "State Management with Bloc",
-  "Flutter Isolates and compute"
+import 'package:vijaymakwana/models/skill.dart';
+
+final List<Skill> skills = [
+  const Skill(
+      title: "Languages: ", skills: "Kotlin, Java, Dart, JavaScript (Basic)"),
+  const Skill(
+      title: "Android: ",
+      skills:
+          "Android SDK,  Jetpack Compose, Coroutines, Flow, Channels, Dagger/Hilt, Retrofit, Room, ViewModel, LiveData, Services, Work Manager"),
+  const Skill(
+      title: "Flutter: ",
+      skills: "Flutter SDK, BLoC, Isolates, Native Method Channels, Canvas"),
+  const Skill(
+      title: "Architecture: ",
+      skills: "MVVM, Clean Architecture, MVI, Modularization"),
+  const Skill(
+      title: "Testing: ",
+      skills:
+          "JUnit, Espresso, Mockito, UI Automator, Robolectric, Screenshot testing, Widget Testing"),
+  const Skill(
+      title: "Others: ",
+      skills:
+          "Git, Firebase, Performance Profiling, Agile/Scrum, Code Review & Mentorship"),
 ];
