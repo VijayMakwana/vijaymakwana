@@ -1,4 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as cs;
 import 'package:flutter/material.dart';
 
 class CarouselWithIndicator extends StatefulWidget {
@@ -14,7 +14,7 @@ class CarouselWithIndicator extends StatefulWidget {
 
 class CarouselWithIndicatorState extends State<CarouselWithIndicator> {
   int _current = 0;
-  final CarouselController _controller = CarouselController();
+  final cs.CarouselSliderController _controller = cs.CarouselSliderController();
 
   @override
   Widget build(BuildContext context) {
@@ -33,10 +33,10 @@ class CarouselWithIndicatorState extends State<CarouselWithIndicator> {
 
     return Column(children: [
       Expanded(
-        child: CarouselSlider(
+        child: cs.CarouselSlider(
           items: imageSliders,
           carouselController: _controller,
-          options: CarouselOptions(
+          options: cs.CarouselOptions(
               height: 500,
               autoPlay: true,
               enlargeCenterPage: true,
@@ -62,7 +62,7 @@ class CarouselWithIndicatorState extends State<CarouselWithIndicator> {
                   color: (Theme.of(context).brightness == Brightness.dark
                           ? Colors.white
                           : Colors.black)
-                      .withOpacity(_current == entry.key ? 0.9 : 0.4)),
+                  .withValues(alpha: _current == entry.key ? 0.9 : 0.4)),
             ),
           );
         }).toList(),
